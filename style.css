@@ -88,4 +88,24 @@ section h3{
     .input-col input{
         width: 95%;
     }
+    
+    .button-col p{
+    background: #fff;
+    width: 50px;
+    height: 27px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 8px;
+    cursor: pointer;
+    }
+    
+    .button-col1 p{
+    background: #fff;
+    width: 140px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 8px;
+    cursor: pointer;
+   }
 }
