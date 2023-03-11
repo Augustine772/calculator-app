@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: darkslategray;
+}
+
+section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+section h3{
+    color: #fff;
+}
+
+.input-col input{
+    width: 320px;
+    height: 60px;
+    margin-top: 10%;
+    background-color: rgb(32, 39, 39);
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.calc-col{
+    background: rgb(47, 65, 65);
+    padding: 10px;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.button-col{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.button-col p{
+    background: #fff;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+.button-col1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.button-col1 p{
+    background: #fff;
+    width: 155px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+@media(max-width: 700px){
+    section{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 80%;
+        display: block;
+    }
+
+    .input-col{
+        text-align: center;
+    }
+
+    .input-col input{
+        width: 95%;
+    }
+}
